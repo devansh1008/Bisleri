@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>          
+
+
+    <div id="page1-loder">
+      <video
+        autoplay
+        loop
+        muted
+        src="WhatsApp Video 2024-07-19 at 15.34.38_07760f88.mp4"
+      ></video>
+      <div class="center">
+        <h1 class="text text-[20vw] font-bold text-[#00B29C] text-center">
+          <i
+            >b<span class="text-white">i</span><span>s</span><span class="text-white">l</span
+            ><span>a</span><span class="text-white">r</span
+            ><span>i</span></i
+          >
+        </h1>
+        <div class="container1 h-[60vh] w-[30vw] bg-zinc-400">
+          <img
+            src="https://i.pinimg.com/originals/45/7e/e1/457ee121f4f4a338a78fb734fd03fa76.jpg"
+            alt=""
+          />
+        </div>
+        <div class="container1 h-[60vh] w-[30vw] bg-zinc-400">
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/658a6c176930923.64cd1c1fa5c6c.jpg"
+            alt=""
+          />
+        </div>
+        <div class="container1 h-[60vh] w-[30vw] bg-zinc-400">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXvNuFUu4VEIZmiPNvVAocDqHCCYGP16sGQ&s"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div id="page1">
+        <div id="curser" class="h-[8vh] w-[4vw]  flex items-center justify-center">
+          <i class="ri-arrow-right-line "></i>
+        </div>
+        <div id="nav">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bisleri_logo.svg/1280px-Bisleri_logo.svg.png"
+            alt=""
+          />
+          <h2 class="uppercase text-xl font-semibold">Explore</h2>
+          <h6 class="">MEl 21:24</h6>
+        </div>
+        <div id="page1-center">
+          <h6 class="text-sg font-semibold">/home</h6>
+          <h1 class="center text-6xl font-semibold">
+            We <span class="text-[#00B29C]">bisleri</span> design for impact.
+            <br />
+            See for yourself.
+          </h1>
+          <div
+            class="menu relative w-[9vw] bg-black text-white border-2 border-black flex items-center justify-center gap-6"
+            onclick="toggleDropdown()"
+          >
+            <h4 class="text-sg font-semibold bg-black rounded-full">menu</h4>
+            <h4 class="text-xl">
+              <i class="ri-arrow-drop-down-fill"></i>
+              <i class="ri-arrow-drop-up-fill hidden"></i>
+            </h4>
+            <div
+              id="dropdown"
+              class="dropdown hidden h-[34vh] w-[11vw] mt-2 flex flex-col"
+            >
+              <button
+                class="dropdown-item h-[5vh] bg-black w-[8vw] mt-2 rounded-xl border-2 border-black"
+              >
+                Home
+              </button>
+              <button
+                class="dropdown-item h-[5vh] bg-black w-[10vw] mt-2 rounded-xl border-2 border-black"
+              >
+                Shop products
+              </button>
+              <button
+                class="dropdown-item h-[5vh] bg-black w-[8vw] mt-2 rounded-xl border-2 border-black"
+              >
+                Brads
+              </button>
+              <button
+                class="dropdown-item h-[5vh] bg-black w-[8vw] mt-2 rounded-xl border-2 border-black"
+              >
+                News Room
+              </button>
+              <button
+                class="dropdown-item h-[5vh] bg-black w-[8vw] mt-2 rounded-xl border-2 border-black"
+              >
+                Referral
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="page1-bottom">
+          <div id="one">
+            <div class="img1">
+              <img src="https://i0.wp.com/nenow.in/wp-content/uploads/2019/09/3-9.jpg?fit=1030%2C606&ssl=1" alt="">
+            </div>
+            <h4>Bislari Minral Wather</h4>
+          </div>
+          <div id="two">
+            <div class="img2">
+              <img src="https://imgs.search.brave.com/Xhf2cTQeBd6r8Eo43S9KDZYMuF82lIHiArTfGVYufsI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFBai16UTZYTkwu/anBn" alt="">
+            </div>
+            <h4>Vedica-Himayalan Spring Wather</h4>
+          </div>
+          <div id="three">
+            <div class="img3">
+              <img src="https://tiimg.tistatic.com/fp/2/003/801/sizlerplus-carbonated-soft-drinks-316.jpg" alt="">
+            </div>
+            <h4>Corbonated Soft Drink</h4>
+          </div>
+        </div>
+      </div>
+      <div id="page7" class="flex items-center">
+        <div id="page7-one" class="h-full w-full flex items-center">
+          <div
+            data-scroll
+            data-scroll-speed="1"
+            id="page7-left"
+            class="h-full w-1/2 flex items-center  justify-center">
+            <!--  -->
+            <div
+              id="cards"
+              class="cardss h-[70%] w-[80%] bg-[#2F2F3A]   flex items-center justify-center"  >
+            
+              <!--  -->
+              <div id="card" class="h-[80%] w-[80%]   overflow-hidden">
+                 <video data-scroll data-scroll-speed="1" class=" h-full w-full object-cover" autoplay loop muted src="video2.mp4"></video> 
+              </div>
+            </div>
+          </div>
+          <div
+            data-scroll
+            data-scroll-speed="1"
+            id="page7-right" class="h-full w-1/2 flex flex-col items-center justify-between py-16">
+         
+              <div id="text" class=" text-black">
+                <h4>Values Quality with Care Bisleri Mineral</h4>
+              <h4>Water stands apart with its promise of</h4>
+              <h4>goodness that goes through rigorous 10</h4>
+              <h4>STEP QUALITY PROCESS and 90 TESTS.</h4>
+              <h4>Every drop is safe, pure and hygienic</h4>
+          
+              </div>
+            
+            <div
+              id="container"
+              class="h-[50%] w-[80%] bg-[#2F2F3A] flex items-center justify-center"
+            >
+            <!--  -->
+              <div id="card" class="h-[80%] w-[80%]  overflow-hidden  ">
+                <video data-scroll data-scroll-speed="1" autoplay loop muted src="video1.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page2" class="text-black ">
+         
+        <div id="page2-one" class="flex bg-blue-500 z-[999]"><div
+            id="page2-left"
+            class="h-[100vh] w-[50vw] flex flex-col items-start justify-start gap-2"
+          >
+            <h1 class="text-5xl font-semibold text-white">
+              <i>
+                <span class="text-[#078D73]">our brands ,</span> your trust</i
+              >
+            </h1>
+            <h1 class="text-4xl font-semibold text-white">
+              <span class="text-[#078D73]">good</span> on bislari
+            </h1>
+            <h1 class="text-4xl font-semibold text-white">
+              <span class="text-[#078D73]">Values</span> Quality with Care
+            </h1>
+            <p class="w-[30vw] text-lg font-semibold opacity-60">
+              Bisleri Mineral Water stands apart with its promise of goodness
+              that goes through rigorous 10 STEP QUALITY PROCESS and 90 TESTS.
+              Every drop is safe, pure and hygienic to the core and meets the
+              quality guidelines set by the Bureau of Indian Standards (BIS).
+            </p>
+            <h4
+              class="text-xl font-semibold text-[#078D73] border-b-4 border-[#078D73]"
+            >
+              Shop bislari
+            </h4>
+            <button> # CLICK HERE
+            </button>
+          </div>
+          <div id="page2-right" class="h-[100vh] w-[50vw]">
+            <div class="img">
+              <img
+                src="bisleri-ke9B--621x414LiveMint_1686162035645_1686162035772-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="page3">
+        <div class="main">
+          <div class="elem">
+            <h2 class="text-lg">
+              <span class="text-[2vw] font-semibold text-[#00B29C]">Classic</span><br />Bisleri Classic
+              provides pure and safe mineral water, trusted by millions. Ideal
+              for everyday hydration, it ensures clean and refreshing drinking
+              water.
+            </h2>
+
+            <img
+              src="https://www.bisleri.com/images/bislerimineralwaterbanner.webp"
+              alt=""
+            />
+          </div>
+          <div class="elem">
+            <h2>
+              <span class="text-[2vw] font-semibold text-[#00B29C]">Vedica:</span> <br />
+              Vedica is sourced from the Himalayas, offering natural goodness
+              and minerals. It combines purity with the pristine essence of
+              mountain spring water.
+            </h2>
+
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VmpKkZfVPsko_85Tm50s5znshuMIMB0DQA&s"
+              alt=""
+            />
+          </div>
+          <div class="elem">
+            <h2>
+              <span class="text-[2vw] font-semibold text-[#00B29C]">Fizzy: </span><br />
+              Bisleri Fizzy is a sparkling water option for a refreshing and
+              bubbly experience. Perfect for those who enjoy a bit of sparkle in
+              their hydration.
+            </h2>
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2023/11/362409515/SA/LX/NC/108653519/51xdbyu7gzl-ac-uf1000-1000-ql80-250x250.jpg"
+              alt=""
+            />
+          </div>
+          <div class="elem">
+            <h2 class="">
+              <span class="text-[2vw] font-semibold text-[#00B29C]">Mountain Water:</span><br />
+              Mountain Water is enriched with essential minerals, sourced from
+              natural springs. It provides a crisp and clean taste, ideal for a
+              healthy lifestyle.
+            </h2>
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/62e7a92f066fa3730dcd4604/22f74fd8-b043-41bf-908d-89945851dc4e/v2-97b46-rsbqx.jpg"
+              alt=""
+            />
+          </div>
+          <div class="elem">
+            <h2>
+              <span class="text-[2vw] font-semibold text-[#00B29C]">Fonzo:</span><br />
+              Fonzo blends Bisleri's purity with the tangy flavor of mango. It's
+              a delicious and refreshing drink for mango lovers, perfect for any
+              occasion.
+            </h2>
+            <img
+              src="https://exchange4media.gumlet.com/news-photo/1524035731_h0aLTv_fonzo.jpg?w=500"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="page4">
+        <div id="page4-one">
+          <div id="texth2">
+            <h1 id="texth1" class=" text-[#078D73] "><i>Leading through Change</i></h1>
+          </div>
+          <div id="card">
+            <!-- <img src="	https://www.bisleri.com/images/bottles-change-ad.webp" alt=""> -->
+            <img
+              src="https://www.bisleri.com/images/bottles-change-ad-mobile.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <h2>trust bislari</h2>
+        <div id="page4-two">
+          <div id="part1">
+            <img src="images-removebg-preview (8).png" alt="" />
+            <h4 class="text-2xl font-semibold">
+              Bottles for Change aims to create awareness that
+            </h4>
+            <h1 class="text-4xl font-semibold">
+              USED PLASTIC IS NOT WASTE. <br />
+              IT HAS VALUE. IT IS RECYCLABLE.
+            </h1>
+          </div>
+          <div id="part2">
+            <div class="part2-one">
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">9</h4>
+                <h4 class="text-lg">Corporates enrolled in these 7 cities</h4>
+              </div>
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">800</h4>
+                <h4 class="text-lg">Housing Societies reached</h4>
+              </div>
+            </div>
+            <div class="part2-one">
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">500</h4>
+                <h4 class="text-lg">Corporates partnered/engaged</h4>
+              </div>
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">400</h4>
+                <h4 class="text-lg">Schools and Colleges reached</h4>
+              </div>
+            </div>
+            <div class="part2-one">
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">600</h4>
+                <h4 class="text-lg">Hotels and Restaurants reached</h4>
+              </div>
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">550</h4>
+                <h4 class="text-lg">Awareness Sessions/Workshops conducted</h4>
+              </div>
+            </div>
+            <div class="part2-one">
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">6,00,000</h4>
+                <h4 class="text-lg">Population reached</h4>
+              </div>
+              <div class="part2h1">
+                <h4 class="text-xl font-semibold">6500</h4>
+                <h4 class="text-lg">Tonnes of plastic collected</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img">
+          <img
+            src="https://marketingmind.in/wp-content/uploads/2022/03/BISLERI-700x367.png"
+            alt=""
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.oEeynmYeyYWDC6EZUFS8jQHaFw?w=234&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            alt=""
+          />
+          <img
+            src="https://www.webpackaging.com/Up/Comp/1008/11043646/13111942-HBIPSCQN/i/prev/cover-GoG-14.2.jpg"
+            alt=""
+          />
+          <img
+            src="https://thecsruniverse.com/adminxsafe/uploads/Bisleri.jpg"
+            alt=""
+          />
+
+              
+        </div>
+      </div>
+      <div id="page5">
+        <div
+          id="page5-top"
+          class="h-[18vh] w-[100vw] relative flex items-center justify-center flex-col"
+        >
+          <h1 class="text-6xl font-bold text-[#00B29C]">
+            <i>Spreading the Promise of Goodness</i>
+          </h1>
+          <h6 class="pt-4 text-lg font-normal">
+            Bringing a change in the mindset of every individual in the country
+          </h6>
+        </div>
+        <div
+          id="page5-center"
+          class="h-[60vh] w-[100vw] flex items-center justify-center gap-6"
+        >
+          <div id="card1" class="cards h-[60vh] w-[30vw] bg-blue-400">
+            <img
+              src="https://im.indiatimes.in/content/2021/Aug/Bisleri-first-water-plant-set-up-in-Thane-Mumbai_6113bb45100bf.jpg"
+              alt=""
+            />
+          </div>
+          <div id="card2" class="cards h-[60vh] w-[30vw] bg-blue-400">
+            <img src="https://www.bisleri.com/images/feature-03.webp" alt="" />
+          </div>
+          <div id="card3" class="cards h-[60vh] w-[30vw] bg-blue-400">
+            <img
+              src="https://www.bisleri.com/images/stand-apart-factory.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          id="page5-buttom"
+          class="h-[22vh] w-[100vw] mt-4 flex flex-col items-center justify-center"
+        >
+          <p class="text-lg font-normal w-[80vw] text-center">
+            A symbol of goodness, trust and purity, Bisleri has been a household
+            name for decades. it is the most trusted brand of mineral water in
+            India. Having a strong presence, with 122 operational plants (13
+            owned) and a strong distribution network of 4500 Distributors & 5000
+            Distribution trucks across India & neighbouring countries, pure &
+            healthy mineral water to consumers for the last 50 years
+          </p>
+          <div id="button" class="flex items-center justify-center gap-24 mt-2">
+            <button>learn more</button>
+            <button>Apply for distributorship</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="page6" class="">
+        <div id="top" class="h-[40vh] w-[100vw] flex">
+          <div
+            id="top-left"
+            class="h-[40vh] w-[45vw] flex items-center justify-center"
+          >
+            <img
+              class="h-[15vw]"
+              src="Bisleri_logo_green-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div id="top-right" class="h-[40vh] w-[55vw] px-20 py-12">
+            <div
+              id="top-one"
+              class="h-[24vh] w-[40vw] bg-[#BAC0C4] flex flex-col items-center justify-center rounded-xl"
+            >
+              <p class="text-[1.2vw] w-[38vw]">
+                <h1 class="text-[xl]">Bisleri Packaged Drinking Water</h1>
+                When you think about packaged drinking water, what’s the first thing that comes to mind? Perhaps, a bottle with Bisleri packaging? Over time, Bisleri has become synonymous with mineral water.
+              </p>
+              <div id="email" class="mt-4 flex justify-center gap-6">
+                <input placeholder="Email address" class="input" name="text" type="email" />
+                <button class="button">
+                  <div class="outline"></div>
+                  <div class="state state--default">
+                    <div class="icon">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g style="filter: url(#shadow)">
+                          <path
+                            d="M14.2199 21.63C13.0399 21.63 11.3699 20.8 10.0499 16.83L9.32988 14.67L7.16988 13.95C3.20988 12.63 2.37988 10.96 2.37988 9.78001C2.37988 8.61001 3.20988 6.93001 7.16988 5.60001L15.6599 2.77001C17.7799 2.06001 19.5499 2.27001 20.6399 3.35001C21.7299 4.43001 21.9399 6.21001 21.2299 8.33001L18.3999 16.82C17.0699 20.8 15.3999 21.63 14.2199 21.63ZM7.63988 7.03001C4.85988 7.96001 3.86988 9.06001 3.86988 9.78001C3.86988 10.5 4.85988 11.6 7.63988 12.52L10.1599 13.36C10.3799 13.43 10.5599 13.61 10.6299 13.83L11.4699 16.35C12.3899 19.13 13.4999 20.12 14.2199 20.12C14.9399 20.12 16.0399 19.13 16.9699 16.35L19.7999 7.86001C20.3099 6.32001 20.2199 5.06001 19.5699 4.41001C18.9199 3.76001 17.6599 3.68001 16.1299 4.19001L7.63988 7.03001Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M10.11 14.4C9.92005 14.4 9.73005 14.33 9.58005 14.18C9.29005 13.89 9.29005 13.41 9.58005 13.12L13.16 9.53C13.45 9.24 13.93 9.24 14.22 9.53C14.51 9.82 14.51 10.3 14.22 10.59L10.64 14.18C10.5 14.33 10.3 14.4 10.11 14.4Z"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                        <defs>
+                          <filter id="shadow">
+                            <fedropshadow
+                              dx="0"
+                              dy="1"
+                              stdDeviation="0.6"
+                              flood-opacity="0.5"
+                            ></fedropshadow>
+                          </filter>
+                        </defs>
+                      </svg>
+                    </div>
+                    <p>
+                      <span style="--i:0">S</span>
+                      <span style="--i:1">e</span>
+                      <span style="--i:2">n</span>
+                      <span style="--i:3">d</span>
+                      <span style="--i:4">M</span>
+                      <span style="--i:5">e</span>
+                      <span style="--i:6">s</span>
+                      <span style="--i:7">s</span>
+                      <span style="--i:8">a</span>
+                      <span style="--i:9">g</span>
+                      <span style="--i:10">e</span>
+                    </p>
+                  </div>
+                  <div class="state state--sent">
+                    <div class="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        stroke-width="0.5px"
+                        stroke="black"
+                      >
+                        <g style="filter: url(#shadow)">
+                          <path
+                            fill="currentColor"
+                            d="M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z"
+                          ></path>
+                          <path
+                            fill="currentColor"
+                            d="M10.5795 15.5801C10.3795 15.5801 10.1895 15.5001 10.0495 15.3601L7.21945 12.5301C6.92945 12.2401 6.92945 11.7601 7.21945 11.4701C7.50945 11.1801 7.98945 11.1801 8.27945 11.4701L10.5795 13.7701L15.7195 8.6301C16.0095 8.3401 16.4895 8.3401 16.7795 8.6301C17.0695 8.9201 17.0695 9.4001 16.7795 9.6901L11.1095 15.3601C10.9695 15.5001 10.7795 15.5801 10.5795 15.5801Z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <p>
+                      <span style="--i:5">S</span>
+                      <span style="--i:6">e</span>
+                      <span style="--i:7">n</span>
+                      <span style="--i:8">t</span>
+                    </p>
+                  </div>
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="buttom" class="h-[60vh] w-[100vw]">
+          <div
+            id="buttom-one"
+            class="h-[40vh] w-[100vw] flex px-[8vw] py-[4vh] justify-between"
+          >
+            <div id="part1" class="text-lg font-normal opacity-80">
+              <h1 class="text-2xl font-semibold">About Us</h1>
+              <h4>Our Journey</h4>
+              <h4>What makes us Stand Apart</h4>
+              <h4 class="text-[#00B2A2]">90 Quality Tests</h4>
+              <h4>The Promise of 10</h4>
+            </div>
+            <div id="part2" class="text-lg font-normal opacity-80">
+              <h1 class="text-2xl font-semibold text-[#00B2A2]">Brands</h1>
+              <h4>Bisleri</h4>
+              <h4>Vedica</h4>
+              <h4>Spyci</h4>
+              <h4>Limonata</h4>
+            </div>
+            <div id="part3" class="text-lg font-normal opacity-80">
+              <h1 class="text-2xl font-semibold">News Room</h1>
+              <h4>Press Release</h4>
+              <h4>News</h4>
+              <h4>Blogs</h4>
+              <h1 class="text-2xl font-semibold">Become a Distributor</h1>
+              <h4>Apply for Bisleri Dealership</h4>
+              <h4>News</h4>
+              <h4>Blogs</h4>
+            </div>
+            <div id="part4" class="text-lg font-normal opacity-80">
+              <h1 class="text-2xl font-semibold">context</h1>
+              <h4>email : snadeeppatel90097@gmail.com</h4>
+              <h4>phon : <i class="ri-phone-line"></i> 3214-956789</h4>
+              <h4>Andheri (East), Mumbai – 400 099</h4>
+              <h4>Monday to Saturday</h4>
+              <h4 class="text-2xl gap-6">
+                <i class="ri-instagram-line"></i>
+                <i class="ri-whatsapp-line"></i>
+                <i class="ri-linkedin-fill"></i> <i class="ri-twitter-line"></i>
+              </h4>
+            </div>
+          </div>
+          <div id="buttom-two" class="h-[20vh] w-[90vw]"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
